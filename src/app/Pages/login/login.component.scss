@@ -1,0 +1,143 @@
+.login {
+    background: #f8fbf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardForm {
+    background: #fffffffc;
+    box-shadow: 2px 4px 6px 2px #0000000d;
+    width: 508px;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.logo img {
+    width: 113px;
+    height: 58px;
+}
+
+.title_logo {
+    font-family: Langar;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46.72px;
+    text-align: center;
+}
+
+.input_group {
+    margin-bottom: 24px;
+}
+
+.input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #c6d1dc;
+    outline: none;
+    height: 56px;
+    padding: 0 12px;
+    margin-bottom: 8px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ImgLogin img {
+    width: 692px;
+    height: 499.88px;
+}
+
+i.passicon {
+    bottom: 45%;
+    right: 25px;
+    color: #8ea2b9;
+    transition: transform 0.8s ease;
+}
+
+.passicon.fa-eye {
+    transform: scaleX(1);
+}
+
+.passicon.fa-eye-slash {
+    transform: scaleX(-1);
+}
+
+.containerCheck input {
+    display: none;
+}
+
+.containerCheck {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #2196f300;
+    border-radius: 4px;
+    transition: all 0.25s;
+}
+
+.containerCheck input:checked~.checkmark {
+    background-color: #18c36e;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    transform: rotate(0deg);
+    border: 0.4px solid black;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    transition: all 0.25s, border-width 0.1s;
+}
+
+.containerCheck input:checked~.checkmark:after {
+    left: 5.4px;
+    top: 3px;
+    width: 5px;
+    height: 9px;
+    border-color: rgba(255, 255, 255, 0) white white rgba(255, 255, 255, 0);
+    border-width: 0 0.15em 0.15em 0;
+    border-radius: 0em;
+    transform: rotate(45deg);
+}
+
+.labelChecked,
+.routePassword a {
+    font-weight: 16px;
+    font-weight: 400;
+    color: #1F2832;
+}
+
+.checkedCard {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: #18c36e;
+    color: #f8fbf7;
+    font-weight: 600;
+}

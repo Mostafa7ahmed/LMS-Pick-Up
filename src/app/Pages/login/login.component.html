@@ -1,0 +1,58 @@
+<div class="login">
+
+    <div class="cardForm   ">
+        <div class="logo">
+            <img src="Images/Logo.png" alt="">
+
+        </div>
+
+        <p class="title_logo text-center mt-3">
+            Pick Up <br>No place for the idle!
+        </p>
+
+        <form action="" class="mt-4 p-3 py-5">
+
+            <div class="input_group">
+                <input type="text" class="input form-control is-invali  " placeholder="Email or Phone number">
+                <div class="invalid-feedback text-start">
+                    Please enter a vaild email address
+                </div>
+            </div>
+            <div class="input_group position-relative">
+                <input [type]="passwordFieldType ? 'password' : 'text'" class="input form-control "
+                    placeholder="Password">
+                <div class="invalid-feedback text-start">
+                    Please enter a vaild email address
+                </div>
+                <i (click)="togglePasswordVisibility()" role="button" class="fa-solid position-absolute passicon"
+                    [class.fa-eye]="passwordFieldType" [class.fa-eye-slash]="!passwordFieldType">
+                </i>
+
+            </div>
+
+            <div class="input_group d-flex justify-content-between">
+
+                <div class="d-flex gap-2 checkedCard">
+                    <label class="containerCheck">
+                        <input  type="checkbox" id="invalidCheck">
+                        <div class="checkmark"></div>
+                    </label> <label class="labelChecked " for="invalidCheck">
+                        Remember me
+                    </label>
+                </div>
+
+                <div class="routePassword">
+                    <a href="">Forgot password?</a>
+                </div>
+
+            </div>
+
+            <button class="btn">Login</button>
+
+        </form>
+    </div>
+    <div class="ImgLogin">
+        <img src="Images/Login_Screen.png" alt="">
+    </div>
+
+</div>

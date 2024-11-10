@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+
+.form-control{
+    display: inline !important;
+}
+.form-control{
+    display: inline !important;
+    box-shadow: none !important;
+
+}
+.form-control.is-invalid{
+    border-color:#B90000 !important;
+
+}
+.done{
+    border: 1px solid #059529 !important;
+}
