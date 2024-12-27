@@ -1,7 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-
+:root{
+     --bggrean:#F3FFEF;
+    --grean1:#18c36e;
+    --fwhite:#F8FBF7;
+    --success:#059529;
+    --error :#B90000;
+    --color_link :#000000;
+    --color_border:#C6D1DC;
+}
+a{
+    text-decoration: none;
+    color: var(--color_link);
+}
 .form-control{
     display: inline !important;
 }

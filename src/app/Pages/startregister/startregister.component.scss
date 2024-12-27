@@ -1,0 +1,54 @@
+.startregister{
+    height: 100vh;
+    background-color: var(--bggrean);
+
+}
+.startregister .cardchoose{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+
+
+}
+.startregister .cardchoose .choose{
+    width: 800px;
+    box-shadow: 0px 0px 4px 0px #00000036;
+    background: linear-gradient(90deg, #FFFFFF 34.1%, rgba(191, 255, 190, 0.570816) 99.99%, rgba(106, 255, 103, 0) 100%);
+    height: 400px;
+    border-radius: 25px;
+}
+.startregister .choose .leftContent h3{
+    font-family: Langar;
+    text-align: center;
+    line-height: 1.5;
+}
+.startregister .choose .leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardchoose .choose .leftContent .contentChoose{
+    gap: 70px;
+
+}
+.cardchoose .choose .leftContent .choose_links{
+    background-color: #FFFFFF;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px 1px rgba(136, 255, 97, 0.2392156863);
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 1s background-color;
+
+}
+.cardchoose .choose .leftContent .choose_links:hover{
+    background-color: var(--bggrean);
+    box-shadow: 0px 0px 10px 1px rgba(158, 247, 129, 0.239);
+
+    
+}
+.cardchoose .choose .leftContent .choose_links a{
+    font-family:cursive;
+
+}

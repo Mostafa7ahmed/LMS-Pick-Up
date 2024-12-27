@@ -9,7 +9,7 @@
 .cardForm {
     background: #fffffffc;
     box-shadow: 2px 4px 6px 2px #0000000d;
-    width: 508px;
+    width: 450px;
     border-radius: 20px;
     padding: 30px 20px;
 }
@@ -34,7 +34,7 @@
 .input {
     width: 100%;
     border-radius: 8px;
-    border: 1px solid #c6d1dc;
+    border: 1px solid   var(--color_border);;
     outline: none;
     height: 56px;
     padding: 0 12px;
@@ -55,7 +55,7 @@ input::placeholder {
 i.passicon {
     bottom: 45%;
     right: 25px;
-    color: #8ea2b9;
+    color:  var(--color_border);
     transition: transform 0.8s ease;
 }
 
@@ -92,7 +92,7 @@ i.passicon {
 }
 
 .containerCheck input:checked~.checkmark {
-    background-color: #18c36e;
+    background-color:var(--grean1);;
 }
 
 .checkmark:after {
@@ -137,7 +137,13 @@ i.passicon {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: #18c36e;
+    background-color: var(--grean1);
     color: #f8fbf7;
     font-weight: 600;
+}
+.btn_border{
+    background-color: transparent;
+    color:var(--grean1);;
+    border: 1px solid var(--grean1);;
+
 }
