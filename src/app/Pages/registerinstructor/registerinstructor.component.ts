@@ -33,7 +33,7 @@ export class RegisterinstructorComponent {
   private _formBuilder = inject(FormBuilder);
 
   firstFormGroup = this._formBuilder.group({
-    firstCtrl: ['', Validators.required]
+    firstCtrl: ['']
   });
   secondFormGroup = this._formBuilder.group({
     secondCtrl: ['', Validators.required]

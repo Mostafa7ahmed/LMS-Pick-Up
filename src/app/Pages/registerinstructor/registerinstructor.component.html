@@ -9,9 +9,9 @@
             <mat-stepper labelPosition="bottom" #stepper [linear]="isLinear"  >
                 <mat-step [stepControl]="firstFormGroup" >
                   <form [formGroup]="firstFormGroup" >
-                    <mat-form-field appearance="outline" class="inputFild">
+                    <mat-form-field appearance="outline"  class="my-form-field">
                       <mat-label>Name</mat-label>
-                      <input matInput placeholder="Last name, First name" formControlName="firstCtrl" >
+                      <input matInput  formControlName="firstCtrl" >
                     </mat-form-field>
                     <div>
                       <button mat-button matStepperNext>Next</button>
