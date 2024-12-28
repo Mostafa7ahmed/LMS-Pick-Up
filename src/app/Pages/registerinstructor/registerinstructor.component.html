@@ -1,0 +1,52 @@
+<div class="registerInstructor">
+
+    <div class="cardForm">
+        <div class="logo">
+            <img src="Images/Logo.png" alt="">
+
+        </div>
+        <div class="dataInstructor">
+            <mat-stepper labelPosition="bottom" #stepper [linear]="isLinear"  >
+                <mat-step [stepControl]="firstFormGroup" >
+                  <form [formGroup]="firstFormGroup" >
+                    <mat-form-field appearance="outline" class="inputFild">
+                      <mat-label>Name</mat-label>
+                      <input matInput placeholder="Last name, First name" formControlName="firstCtrl" >
+                    </mat-form-field>
+                    <div>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+                <mat-step [stepControl]="secondFormGroup" >
+                  <form [formGroup]="secondFormGroup">
+                    <mat-form-field>
+                      <mat-label>Address</mat-label>
+                      <input matInput formControlName="secondCtrl" placeholder="Ex. 1 Main St, New York, NY"
+                             required>
+                    </mat-form-field>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+                <mat-step>
+                  <p>You are now done.</p>
+                  <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button (click)="stepper.reset()">Reset</button>
+                  </div>
+                </mat-step>
+              </mat-stepper>
+        </div>
+
+
+
+    </div>
+
+    <div class="ImgLogin">
+        <img src="Images/Login_Screen.png" alt="">
+    </div>
+
+</div>

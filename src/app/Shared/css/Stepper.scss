@@ -1,0 +1,45 @@
+/*  Stepper Steps Style  */
+
+::ng-deep .mat-step-header .mat-step-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: var(--green2);
+}
+::ng-deep .mat-step-header:hover:not([aria-disabled]) {
+  background-color: transparent !important;
+}
+::ng-deep .mat-step-header.cdk-program-focused {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+::ng-deep .mat-stepper-label-position-bottom .mat-horizontal-stepper-header {
+  padding: calc((var(--mat-stepper-header-height) - 35px) / 2) 24px;
+}
+::ng-deep .mat-step-header .mat-step-icon-state-number {
+  background-color: var(--white);
+  box-shadow: 0px 0px 4px 0px #00000017;
+}
+::ng-deep .mat-step-header .mat-step-icon-content span {
+  color: var(--gray1);
+}
+
+::ng-deep .mat-stepper-label-position-bottom .mat-horizontal-stepper-header {
+  padding: calc((var(--mat-stepper-header-height) - 35px) / 2) 24px;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-state-done {
+  background-color: var(--white);
+  box-shadow: 0px 0px 4px 0px #00000017;
+}
+::ng-deep .mat-step-header .mat-step-icon-state-done .mat-step-icon-content {
+  color: var(--gray1);
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected {
+  background-color: var(--green2);
+}
+::ng-deep .mat-step-header .mat-step-icon-selected .ng-star-inserted {
+  color: var(--white);
+}

@@ -1,0 +1,37 @@
+.registerInstructor{
+    background: var(--fwhite);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.cardForm {
+    background: #fffffffc;
+    box-shadow: 2px 4px 6px 2px #0000000d;
+    width: 465px;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.logo img {
+    width: 113px;
+    height: 58px;
+}
+
+.ImgLogin img {
+    width: 692px;
+    height: 499.88px;
+}
+.step{
+    background-color: brown !important;
+}
+.mat-mdc-form-field {
+    margin-top: 16px;
+  }
+
+
+.inputFild{
+    width: 100%;
+}
